@@ -103,6 +103,6 @@ public class EnderecoService {
         }
         e.setUpdated_at(LocalDateTime.now());
         e.setOriginal_url(novoEnderecoUrl);
-        return enderecoRepository.save(e); // Retorna a entidade salva
+        return enderecoRepository.save(e); 
     }
 }
